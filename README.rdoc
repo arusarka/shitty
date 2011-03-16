@@ -2,9 +2,15 @@
 
 == Description:
 
-== Features/Problems:
+With no offense to ruby this is the result of a chat with some of my friends. It is an attempt at being
+humorous and intuitively bringing a smile to the face.
 
-=== Aliases
+== Feature request:
+
+raise an feature request on https://github.com/arusarka/shitty/issues. If its funny or ridiculously obscene
+I might include it.
+
+== Aliases:
 
 * puts => poop
 * p    => pee
