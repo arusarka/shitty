@@ -6,3 +6,7 @@ end
 class IO
   alias_method :poop, :puts
 end
+
+module Enumerable
+  alias_method :fuck, :inject
+end

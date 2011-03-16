@@ -1,12 +1,15 @@
 == shitty
 
+Why so serious son?
+
 == Description:
 
 With no offense to ruby this is the result of a chat with some of my friends. It is an attempt at being
-humorous and intuitively bringing a smile to the face.
+humorous and intuitively obscene.
 
 == Feature request:
 
+I need lots and lots of ideas about how to go around doing it. What makes it funny? If you have an idea
 raise an feature request on https://github.com/arusarka/shitty/issues. If its funny or ridiculously obscene
 I might include it.
 
@@ -19,6 +22,10 @@ I might include it.
   poop 'hello world'
   pee 'aaa'
   File.open('great_poop', 'w') {|fd| fd.poop 'release'}
+
+* enumerable.inject is called enumerable.fuck
+
+  ['thats', 'what', 'she', 'said'].fuck {|statement, word| statement + ' ' + word}
 
 == Install:
 

@@ -13,13 +13,24 @@ describe "aliases" do
 
   context "in IO class" do
     it "for puts is poop" do
-      fd = IO.sysopen(File.expand_path(File.dirname(__FILE__) + '/test_file'), 'w')
-      io = IO.new(fd, 'w')
+      class DummyIO < IO
+        def initialize; end # for test only, to get rid of arguments
+      end
+      io = DummyIO.new
 
       io.method(:poop).should == io.method(:puts)
+    end
+  end
 
-      io.close
-      File.delete File.expand_path(File.dirname(__FILE__) + '/test_file')
+  context "in Enumerable module" do
+    it "for inject is fuck" do
+      class DummyClass
+        include Enumerable
+        def each; end
+      end
+
+      obj = DummyClass.new
+      obj.method(:fuck).should == obj.method(:inject)
     end
   end
 end
