@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
     put a smile on your face}
   s.description = %q{Let's write some shit}
 
-  s.rubyforge_project = "shitty"
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec-unit'
 
   s.files         = [
     'lib/shitty.rb',
