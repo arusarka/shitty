@@ -6,16 +6,22 @@ Gem::Specification.new do |s|
   s.name        = "shitty"
   s.version     = Shitty::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["asur"]
+  s.email       = ["arusarka@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{This gem is written in jest when I was on bench and had nothing much to work on. It
+    is not written with an intention to belittle ruby. I love ruby. But thought why not write something to
+    put a smile on your face}
+  s.description = %q{Let's write some shit}
 
   s.rubyforge_project = "shitty"
 
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  s.files         = [
+    'lib/shitty.rb',
+    'lib/shitty/version.rb'
+    ]
+  s.test_files    = []
+  s.extra_rdoc_files = ['README.rdoc']
+# s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 end
