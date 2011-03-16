@@ -4,6 +4,11 @@
 
 == Features/Problems:
 
+=== Aliases
+
+1) puts => poop
+2) p    => pee
+
 == Synopsis:
 
 == Requirements:

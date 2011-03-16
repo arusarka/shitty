@@ -1,0 +1,20 @@
+Features
+--------
+
+* alias all puts in IO strategies (File, stdout, stderr, etc) to poop
+E.g. -
+  File.open('readme', 'w') {|f| f.puts 'hello'} => File.open('readme', 'w') {|f| f.poop 'hello'}
+
+* enumerable.inject is called fuck
+* enumerable.map is called orgy
+
+design features
+---------------
+
+* observers are called voyeurs
+* publish is called fart
+
+binaries
+--------
+
+* create a binary called shittify
