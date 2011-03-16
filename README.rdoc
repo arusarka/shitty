@@ -6,14 +6,17 @@
 
 === Aliases
 
-1) puts => poop
-2) p    => pee
+* puts => poop
+* p    => pee
+* poop/pee works on all strategies of implementations of IO class
 
-== Synopsis:
-
-== Requirements:
+  poop 'hello world'
+  pee 'aaa'
+  File.open('great_poop', 'w') {|fd| fd.poop 'release'}
 
 == Install:
+
+gem install shitty
 
 == License:
 
