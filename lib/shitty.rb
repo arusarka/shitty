@@ -1,0 +1,3 @@
+module Shitty
+  # Your code goes here...
+end
