@@ -20,9 +20,14 @@ Gem::Specification.new do |s|
 
   s.files         = [
     'lib/shitty.rb',
-    'lib/shitty/version.rb'
+    'lib/shitty/version.rb',
+    'lib/shitty/aliases.rb'
     ]
-  s.test_files    = []
+  s.test_files    = [
+    'spec/spec_helper.rb',
+    'spec/shitty/aliases_spec.rb',
+    'spec/shitty/version_spec.rb'
+    ]
   s.extra_rdoc_files = ['README.rdoc']
 # s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
